@@ -156,6 +156,13 @@ function sortItems(title) {
   }
   data.map((e, i) => addItem(e, i));
 }
+// Обработчик события клика на заголовках столбцов для сортировки данных
+document.querySelectorAll('#tableHeader th').forEach(header => {
+  header.addEventListener('click', function() {
+      const sortField = this.getAttribute('data-sort');
+      sortItems(sortField);
+  });
+});
 
 // Clear the table before updation
 function remove() {
