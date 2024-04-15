@@ -1,0 +1,3 @@
+# Skills: JS, HTML, CSS
+
+I developed the frontend for internal monitoring tools utilized by community managers of the mobile FPS game 'SFG3' by ForgeGames https://www.youtube.com/watch?v=C45yHylfWP4. These tools present a list of game servers along with crucial information such as the map, game mode, and player count. They serve the purpose of swiftly identifying issues and adjusting dedicated server settings to meet player demands. Community managers have the option to select a region and subsequently sort the table by any of its columns. Additionally, it is possible to locate a server based on specific parameters, such as the server name or map name.
